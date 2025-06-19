@@ -1,0 +1,23 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     lambda
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z3barNSt3__18functionIFvvEEE, symObjAddr: 0x0, symBinAddr: 0x100003AB8, symSize: 0x30 }
+  - { offsetInCU: 0x4A20, offset: 0x4A20, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB8ue170006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0x13C, symBinAddr: 0x100003BF4, symSize: 0x58 }
+  - { offsetInCU: 0x4A60, offset: 0x4A60, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB8ue170006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x218, symBinAddr: 0x100003CD0, symSize: 0x2C }
+  - { offsetInCU: 0x4F2D, offset: 0x4F2D, size: 0x8, addend: 0x0, symName: __ZNSt3__125__throw_bad_function_callB8ue170006Ev, symObjAddr: 0x2CC, symBinAddr: 0x100003D84, symSize: 0x38 }
+  - { offsetInCU: 0x7739, offset: 0x7739, size: 0x8, addend: 0x0, symName: __Z3barNSt3__18functionIFvvEEE, symObjAddr: 0x0, symBinAddr: 0x100003AB8, symSize: 0x30 }
+  - { offsetInCU: 0x77E6, offset: 0x77E6, size: 0x8, addend: 0x0, symName: __ZNKSt3__18functionIFvvEEclEv, symObjAddr: 0x30, symBinAddr: 0x100003AE8, symSize: 0x24 }
+  - { offsetInCU: 0x780C, offset: 0x780C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x54, symBinAddr: 0x100003B0C, symSize: 0x70 }
+  - { offsetInCU: 0x7873, offset: 0x7873, size: 0x8, addend: 0x0, symName: '__ZZ4mainENK3$_0clEi', symObjAddr: 0xC4, symBinAddr: 0x100003B7C, symSize: 0x4C }
+  - { offsetInCU: 0x7964, offset: 0x7964, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB8ue170006EPFRS3_S4_E, symObjAddr: 0x110, symBinAddr: 0x100003BC8, symSize: 0x2C }
+  - { offsetInCU: 0x7996, offset: 0x7996, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB8ue170006Ec, symObjAddr: 0x194, symBinAddr: 0x100003C4C, symSize: 0x84 }
+  - { offsetInCU: 0x7A02, offset: 0x7A02, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB8ue170006Ec, symObjAddr: 0x244, symBinAddr: 0x100003CFC, symSize: 0x38 }
+  - { offsetInCU: 0x7A35, offset: 0x7A35, size: 0x8, addend: 0x0, symName: __ZNKSt3__110__function12__value_funcIFvvEEclB8ue170006Ev, symObjAddr: 0x27C, symBinAddr: 0x100003D34, symSize: 0x50 }
+  - { offsetInCU: 0x7A72, offset: 0x7A72, size: 0x8, addend: 0x0, symName: __ZNSt3__117bad_function_callC1Ev, symObjAddr: 0x304, symBinAddr: 0x100003DBC, symSize: 0x2C }
+  - { offsetInCU: 0x7A9C, offset: 0x7A9C, size: 0x8, addend: 0x0, symName: __ZNSt3__117bad_function_callD1Ev, symObjAddr: 0x330, symBinAddr: 0x100003DE8, symSize: 0x2C }
+  - { offsetInCU: 0x7AC4, offset: 0x7AC4, size: 0x8, addend: 0x0, symName: __ZNSt3__117bad_function_callC2Ev, symObjAddr: 0x35C, symBinAddr: 0x100003E14, symSize: 0x44 }
+  - { offsetInCU: 0x7AEE, offset: 0x7AEE, size: 0x8, addend: 0x0, symName: __ZNSt9exceptionC2B8ue170006Ev, symObjAddr: 0x3A0, symBinAddr: 0x100003E58, symSize: 0x24 }
+  - { offsetInCU: 0x7B16, offset: 0x7B16, size: 0x8, addend: 0x0, symName: __ZNSt3__117bad_function_callD0Ev, symObjAddr: 0x3C4, symBinAddr: 0x100003E7C, symSize: 0x30 }
+  - { offsetInCU: 0x7B3E, offset: 0x7B3E, size: 0x8, addend: 0x0, symName: __ZNSt3__117bad_function_callD2Ev, symObjAddr: 0x3F4, symBinAddr: 0x100003EAC, symSize: 0x2C }
+...
