@@ -5,22 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(lldb) my_vect",
+            "name": "debug test",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/my_vect",
-            "args": ["--std=c++11", "-g"],
-            "stopAtEntry": false,
-            "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "lldb"
-                },
-        {
-            "name": "(lldb) Launch",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "enter program name, for example ${workspaceFolder}/a.out",
+            "program": "${workspaceFolder}/test",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -29,10 +17,22 @@
             "MIMode": "lldb"
         },
         {
-            "name": "(lldb) handling errors",
+            "name": "(lldb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/handling-errors",
+            "program": "${workspaceFolder}/mutex_ex",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
+        },
+        {
+            "name": "Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/a",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -40,8 +40,7 @@
             "externalConsole": false,
             "MIMode": "lldb"
         }
-
-
-
+        
+    
     ]
 }
